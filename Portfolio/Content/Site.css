@@ -1,0 +1,159 @@
+﻿
+
+body {
+    /*background-color: #404040;*/
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color: #000000;
+}
+
+p {
+    margin: 10px;
+    color: #000000;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#whole-block {
+    color: #000000;
+    font-size: 24px;
+    min-width: 600px;
+    max-width: 1800px;
+}
+
+#title-index {
+    text-align: center;
+    border: dotted;
+}
+
+#left-index {
+    border: dotted;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    min-height: 150px;
+    width: 25%;
+}
+
+#center-index {
+    margin: auto;
+    /*border: dashed;*/
+    width: inherit;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    min-height: inherit;
+    max-width: inherit;
+    text-align: center;
+    line-height: 12px;
+    overflow: hidden;
+}
+
+#right-index {
+    float: left;
+    border: dotted;
+    min-height: 150px;
+    width: 25%;
+}
+
+#footer-index {
+    border: 3px dotted #fff;
+    clear: both;
+    text-align: center;
+}
+
+#white-big-text {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+}
+
+#myCanvas {
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+#myCanvasProgramming {
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+#myCanvasAutomation {
+    margin: auto;
+    display: block;
+    position: relative;
+}
+
+.lcircle {
+    float: left;
+    width: 50%;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.rcircle {
+    float: left;
+    width: 50%;
+    height: 300px;
+    vertical-align: middle;
+}
+
+.circle {
+    text-align:center;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    width: 100%;
+}
+
+#svg-center {
+    margin: 0;
+    position: relative;
+}
+
+
+/* Additionaly */
+#center-text{
+    text-align: center;
+}
+
+#circle {
+    position: relative;
+    background-color: #09f;
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+
+#text-in-circle {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
